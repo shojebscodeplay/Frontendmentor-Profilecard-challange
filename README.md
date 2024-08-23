@@ -1,6 +1,8 @@
 # Profile Card
 
 This project is a responsive profile card design that showcases a user's profile information along with their social media links. It was built as part of a frontend challenge and demonstrates proficiency in HTML, CSS, and responsive design.
+![Screenshot (519)](https://github.com/user-attachments/assets/2d7aa534-a616-47c9-91cd-f0480cf48209)
+
 
 ## Project Overview
 
