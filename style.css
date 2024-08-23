@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", system-ui, sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Profile card styles */
+.profile-card {
+    width: 100%;
+    max-width: 14rem; /* Reduced the max-width to make the card smaller */
+    padding: 30px; /* Reduced padding to make the height smaller */
+    background-color: #222222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container styles */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+/* Profile image styles */
+.profile-image {
+    width: 70px; /* Adjusted size for smaller card */
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+/* Name and location styles */
+.name {
+    font-size: 1.25rem; /* Reduced font size */
+    font-weight: 600;
+    margin-bottom: 5px; /* Reduced margin */
+}
+
+.location {
+    font-size: 0.775rem; /* Reduced font size */
+    color: #86d506;
+    margin-bottom: 10px; /* Reduced margin */
+    font-weight: 600;
+    margin-top: 0;
+}
+
+/* Bio styles */
+.bio {
+    margin-top: 10px;
+    font-size: 0.75rem; /* Reduced font size */
+    margin-bottom: 15px;
+}
+
+/* Social links styles */
+.social-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-link {
+    width: 100%;
+    padding: 8px; /* Slightly reduced padding */
+    text-align: center;
+    background-color: #333333;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    color: #fbf5f5;
+    font-size: 12px; /* Set base font size */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    background-color: #8cfb04;
+    color: #040404;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .profile-card {
+        padding: 10px;
+        max-width: 12rem; /* Further reduce the card size on smaller screens */
+    }
+
+    .profile-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .location {
+        font-size: 0.75rem;
+        margin-bottom: 5px;
+    }
+
+    .bio {
+        font-size: 0.625rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .profile-card {
+        padding: 30px;
+        max-width: 14rem; /* Smallest card size for very small screens */
+    }
+
+    .profile-image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .name {
+        font-size: 0.875rem;
+    }
+
+    .location {
+        font-size: 0.625rem;
+    }
+
+    .bio {
+        font-size: 0.5rem;
+    }
+}
